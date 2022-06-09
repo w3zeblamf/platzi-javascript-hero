@@ -3,7 +3,7 @@
 
 ## Lenguage de programación
 
-- JavaScript
+- JavaScript :clap:
 
 ## ¿Cómo funciona #PlatziHero?
 
@@ -38,7 +38,7 @@ Ejemplo:
 </p>
 
 
-### Lecturas de referencia
+### Lecturas de referencia 
 
 En cada desafío resuelto se anexa la referencia de la lectura recomendada de la pagina oficial 'MDN Web Docs', anteriormente Mozilla Developer Network.
 
