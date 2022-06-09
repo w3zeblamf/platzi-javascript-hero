@@ -16,7 +16,7 @@ Al responder correctamente la pregunta obtendrás la explicación del código re
 Ejemplo: 
 
 <p style= "align:center">
-  <img src="https://w3zeblamf.github.io/img/my-portfolio.png" width="100%" height="100%" title="My web development portfolio " alt="My web development portfolio">
+  <img src="https://github.com/w3zeblamf/Platzi-Javascript-Hero/blob/main/Un-Quiz-por-dia/img/Ejemplo-Un-Quiz-por-dia.png?raw=true" width="100%" height="100%" title="My web development portfolio " alt="My web development portfolio">
 </p>
 
 ### Método 2: Desafíos interactivos.
@@ -25,12 +25,10 @@ Este método es interactivo. Se trabaja con el código directamente en line, pon
 
 Solved Kata list: 
 
-- 01.- Convert a Number to a String! ==> https://www.codewars.com/kata/5265326f5fda8eb1160004c8
-- 02.- Returning Strings ==> https://www.codewars.com/kata/55a70521798b14d4750000a4
 
 ### Lecturas de referencia
 
 En cada desafío resuelto se anexa la referencia de la lectura recomendada de la pagina oficial 'MDN Web Docs', anteriormente Mozilla Developer Network.
 
-https://developer.mozilla.org/es/docs/Web/JavaScript
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- https://developer.mozilla.org/es/docs/Web/JavaScript
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript
