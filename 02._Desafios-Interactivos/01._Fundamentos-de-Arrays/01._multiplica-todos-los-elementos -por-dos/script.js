@@ -3,7 +3,7 @@ Puede usar el modo estricto en todos sus programas. Te ayuda a escribir código 
 como evitar que uses variables no declaradas. (https://www.w3schools.com/js/js_strict.asp)*/
 'use strict';
 
-//**Desafío 01.- Transforma un Array de objetos a un Array de strings
+//**Desafío 01.- Multiplica todos los elementos por dos
 
 /* 
 En este desafío tienes un array de números, usando la función map debes retornar todos los números del array multiplicados por dos.
