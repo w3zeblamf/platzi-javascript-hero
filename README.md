@@ -16,7 +16,7 @@ Al responder correctamente la pregunta obtendrás la explicación del código re
 Ejemplo: 
 
 <p style= "align:center">
-  <img src="https://github.com/w3zeblamf/Platzi-Javascript-Hero/blob/main/Un-Quiz-por-dia/img/Ejemplo-Un-Quiz-por-dia.png?raw=true" width="100%" height="100%" title="My web development portfolio " alt="#PlatziHero Un Quiz por día">
+  <img src="https://github.com/w3zeblamf/Platzi-Javascript-Hero/blob/main/img/Ejemplo-Un-Quiz-por-dia.png?raw=true" width="100%" height="100%" title="My web development portfolio " alt="#PlatziHero Un Quiz por día">
 </p>
 
 ### Método 2: Desafíos interactivos.
@@ -24,17 +24,17 @@ Ejemplo:
 Este método es interactivo. Se trabaja con el código directamente en line, pones tus conocimientos a prueba. Tendrás diferentes áreas del mundo de JavaScript en las que puedes desafiarte.
 
 <p style= "align:center">
-  <img src="https://github.com/w3zeblamf/Platzi-Javascript-Hero/blob/main/Un-Quiz-por-dia/img/Desafios-Interactivos.png?raw=true" width="100%" height="100%" title="My web development portfolio " alt="#PlatziHero Desafíos-Interactivos">
+  <img src="https://github.com/w3zeblamf/Platzi-Javascript-Hero/blob/main/img/Desafios-Interactivos.png?raw=true" width="100%" height="100%" title="My web development portfolio " alt="#PlatziHero Desafíos-Interactivos">
 </p>
 
 <p style= "align:center">
-  <img src="https://github.com/w3zeblamf/Platzi-Javascript-Hero/blob/main/Un-Quiz-por-dia/img/Desafios-Interactivos-Fundamentos.png?raw=true" width="100%" height="100%" title="My web development portfolio " alt="#PlatziHero Desafíos Interactivos Fundamentos">
+  <img src="https://github.com/w3zeblamf/Platzi-Javascript-Hero/blob/main/img/Desafios-Interactivos-Fundamentos.png?raw=true" width="100%" height="100%" title="My web development portfolio " alt="#PlatziHero Desafíos Interactivos Fundamentos">
 </p>
 
 Ejemplo: 
 
 <p style= "align:center">
-  <img src="https://github.com/w3zeblamf/Platzi-Javascript-Hero/blob/main/Un-Quiz-por-dia/img/Ejemplo-Desafios-Interactivos.png?raw=true" width="100%" height="100%" title="My web development portfolio " alt="#PlatziHero Ejemplo Desafíos Interactivos">
+  <img src="https://github.com/w3zeblamf/Platzi-Javascript-Hero/blob/main/img/Ejemplo-Desafios-Interactivos.png?raw=true" width="100%" height="100%" title="My web development portfolio " alt="#PlatziHero Ejemplo Desafíos Interactivos">
 </p>
 
 
