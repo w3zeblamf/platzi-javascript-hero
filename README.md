@@ -26,7 +26,11 @@ Este método es interactivo. Se trabaja con el código directamente en line, pon
 Ejemplo:
 
 <p style= "align:center">
-  <img src="https://github.com/w3zeblamf/Platzi-Javascript-Hero/blob/main/Un-Quiz-por-dia/img/Ejemplo-Desafios-Interactivos.png?raw=true" width="100%" height="100%" title="My web development portfolio " alt="#PlatziHero Desafíos-Interactivos">
+  <img src="https://github.com/w3zeblamf/Platzi-Javascript-Hero/blob/main/Un-Quiz-por-dia/img/Desafios-Interactivos.png?raw=true" width="100%" height="100%" title="My web development portfolio " alt="#PlatziHero Desafíos-Interactivos">
+</p>
+
+<p style= "align:center">
+  <img src="https://github.com/w3zeblamf/Platzi-Javascript-Hero/blob/main/Un-Quiz-por-dia/img/Ejemplo-Desafios-Interactivos.png?raw=true" width="100%" height="100%" title="My web development portfolio " alt="#PlatziHero Ejemplo Desafíos-Interactivos">
 </p>
 
 
