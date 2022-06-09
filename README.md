@@ -1,9 +1,9 @@
 
 # Mis soluciones a los retos interactivos de 'Platzi Javascript Hero'
 
-## Lenguage de programación
+## Lenguage de programación <i class="fas fa-quote-left"></i>
 
-- JavaScript :clap:
+- JavaScript 
 
 ## ¿Cómo funciona #PlatziHero?
 
