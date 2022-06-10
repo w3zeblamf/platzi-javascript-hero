@@ -1,7 +1,7 @@
 
 # Mis soluciones a los retos interactivos de 'Platzi Javascript Hero'
 
-## Lenguage de programación <i class="fas fa-quote-left"></i>
+## Lenguage de programación
 
 - JavaScript 
 
