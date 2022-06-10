@@ -4,6 +4,7 @@ como evitar que uses variables no declaradas. (https://www.w3schools.com/js/js_s
 'use strict';
 
 //**Desafío 04.- Retorna solo palabras de 4 letras y más.
+//**=====================================================
 
 /* 
 Tienes un array con palabras, tu desafío es retornar un array solo con las que cumplan con la condición de tener 4 o más letras.
