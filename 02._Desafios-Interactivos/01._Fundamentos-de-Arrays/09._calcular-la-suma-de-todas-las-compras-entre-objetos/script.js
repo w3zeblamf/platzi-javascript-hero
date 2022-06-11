@@ -38,13 +38,13 @@ Output
 
 //Solución 1 (Mi Solución)
 
-function solucion(orders) {
+function solution(orders) {
   const sumaCompras = orders.map((item) => item.total).reduce((a, b) => a + b, 0);
   return sumaCompras;
 }
 
 console.log(
-  solucion([
+  solution([
     {
       customerName: 'Nicolas',
       total: 100,
