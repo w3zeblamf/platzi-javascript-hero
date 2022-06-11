@@ -243,7 +243,6 @@ const f = (arr) => Array.isArray(arr) && !arr.length;
 console.log(f([1, 2, 3])); //?
 console.log(f([0])); //?
 console.log(f([])); //?
-
 /* 
 
 Respuesta Correcta: D) false false true
@@ -266,3 +265,18 @@ Veamos caso por caso:
 
 Conclusión: false false true.
 */
+
+
+//*Desafío 14.- ¿Cuál es el resultado del siguiente código?😎
+//**=======================================================
+
+const array = ['a', 'bb', 'ccc'];
+const rta = array.map((item) => item.length);
+
+/*
+Respuesta Correcta: C) [ 1, 2, 3 ]
+El método map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos.
+
+.map() es inmutable, por lo tanto, no modifica el array original, sino que crea uno nuevo con la “transformación” aplicada. Además, mantienes el mismo length que el array original, te devuelve en el nuevo array la misma cantidad que el array que le aplicaste el método.  */
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
