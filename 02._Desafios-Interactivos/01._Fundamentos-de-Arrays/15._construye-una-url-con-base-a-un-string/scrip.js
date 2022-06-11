@@ -4,7 +4,7 @@ como evitar que uses variables no declaradas. (https://www.w3schools.com/js/js_s
 'use strict';
 
 
-//**Desafío 15.- 
+//**Desafío 15.- Construye una URL con base a un string
 //**===================================================================
 
 /* 
@@ -50,5 +50,6 @@ console.log(solution("Curso de arrays"));
 
 //MDN Web Docs
 //=============
-//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
-//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
