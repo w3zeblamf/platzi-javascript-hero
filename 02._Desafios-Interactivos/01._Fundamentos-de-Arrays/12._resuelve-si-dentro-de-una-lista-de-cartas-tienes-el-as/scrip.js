@@ -3,8 +3,8 @@ Puede usar el modo estricto en todos sus programas. Te ayuda a escribir código 
 como evitar que uses variables no declaradas. (https://www.w3schools.com/js/js_strict.asp)*/
 'use strict';
 
-//**Desafío 11.- Retornar si al menos alguno de los números es par
-//**================================================================
+//**Desafío 12.- Resuelve si dentro de una lista de cartas tienes el AS
+//**===================================================================
 
 /* 
 Dado un array de string que son nombres de cartas de poker debes retornar la palabra "AS" si dentro de tu baraja tienes un "AS" y un false si no lo tienes.
