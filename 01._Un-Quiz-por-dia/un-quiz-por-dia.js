@@ -81,8 +81,8 @@ join es un método de arreglos que convierte un arreglo en cadena nuevamente dep
 //A
 const multiplicar = (a) => (b) => a * b;
 //B
-const test = (nombre, accion) => {
-  return accion(nombre);
+const test = (nombre, action) => {
+  return action(nombre);
 };
 console.log(test('Ana', console.log)); //Ana (por consola)
 
