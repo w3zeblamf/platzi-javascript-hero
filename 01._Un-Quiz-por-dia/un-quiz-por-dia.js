@@ -280,3 +280,15 @@ El método map() crea un nuevo array con los resultados de la llamada a la funci
 .map() es inmutable, por lo tanto, no modifica el array original, sino que crea uno nuevo con la “transformación” aplicada. Además, mantienes el mismo length que el array original, te devuelve en el nuevo array la misma cantidad que el array que le aplicaste el método.  */
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+//*Desafío 15.- Analiza determinadamente el siguiente código😎
+//**=======================================================
+
+const myarray = [1, 1, 1, 1, 1];
+const myrta = array.reduce((total, item) => total + item, 0);
+
+/* Respuesta Correcta: D) 5
+El método reduce() recorre el array y llama a la función reductora, almacena el valor del cálculo del array por la función en un acumulador. Un acumulador es una variable que se recuerda todas las iteraciones para almacenar los resultados acumulados de recorrer un array. Podemos usar esto para iterar a través del array, agregar el valor del elemento al acumulador y obtener la suma del array.
+
+El código representado es un ejemplo de la implementación de una función reductora para sumar todos los elementos del array. */
+
