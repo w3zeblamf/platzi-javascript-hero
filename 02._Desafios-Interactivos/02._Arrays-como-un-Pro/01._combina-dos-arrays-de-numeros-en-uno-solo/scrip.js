@@ -39,6 +39,12 @@ console.log(solution(["A", "B", "C"], ["D", "E", "H"]))
 // Solución 2 
 //=========================
 
+// function solution(arrayA, arrayB){
+//   return [...arrayA, ...arrayB];
+// }; 
+
+// console.log(solution([1, 2, 3], [4, 5, 6]))
+// console.log(solution(["A", "B", "C"], ["D", "E", "H"]))
 
 //Lecturas de Referencia 
 //======================
@@ -46,3 +52,27 @@ console.log(solution(["A", "B", "C"], ["D", "E", "H"]))
 //MDN Web Docs
 //=============
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+/* 
+A better way to concatenate arrays
+Array.prototype.concat() is often used to concatenate an array to the end of an existing array. Without spread syntax, this is done as:
+
+let arr1 = [0, 1, 2];
+let arr2 = [3, 4, 5];
+
+Append all items from arr2 onto arr1
+
+arr1 = arr1.concat(arr2);
+Copy to Clipboard
+With spread syntax this becomes:
+
+let arr1 = [0, 1, 2];
+let arr2 = [3, 4, 5];
+
+arr1 = [...arr1, ...arr2];
+arr1 is now [0, 1, 2, 3, 4, 5]
+
+Note: Not to use 'const' otherwise, it will give TypeError (invalid assignment)
+*/
