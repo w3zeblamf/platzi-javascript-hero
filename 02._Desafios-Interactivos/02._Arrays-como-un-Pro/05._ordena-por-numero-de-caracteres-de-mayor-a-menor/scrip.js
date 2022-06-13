@@ -33,12 +33,12 @@ Output
 // Solución 1 (Mi Solución)
 
 //Ordena por número de caracteres de menor a mayor
-function solution2(array) {
+function solution(array) {
   const arrOrder = array.sort((a, b) => a.length - b.length);
   return arrOrder;
 }
 
-console.log(solution2(['Hola', 'Viajar', 'Sol', 'Aprender'])); 
+console.log(solution(['Hola', 'Viajar', 'Sol', 'Aprender'])); 
 // ["Sol", "Hola", "Viajar", "Aprender"]
 
 
@@ -49,14 +49,13 @@ console.log(solution2(['Hola', 'Viajar', 'Sol', 'Aprender']));
 //=========================
 
 
-
 //Ordena por número de caracteres de mayor a menor
-function solution(array) {
+function solution2(array) {
   const arrOrder = array.sort((a, b) => b.length - a.length);
   return arrOrder;
 }
 
-console.log(solution(['Hola', 'Viajar', 'Sol', 'Aprender'])); 
+console.log(solution2(['Hola', 'Viajar', 'Sol', 'Aprender'])); 
 // ["Aprender", "Viajar", "Hola", "Sol"]
 
 //Lecturas de Referencia 
