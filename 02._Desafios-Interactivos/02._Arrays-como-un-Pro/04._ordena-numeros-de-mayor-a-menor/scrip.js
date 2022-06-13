@@ -39,9 +39,12 @@ console.log(solution([3, 1, 11, 5, 2, 7, 8])); //  [11, 8, 7, 5, 3, 2, 1]
 
 //Orden de menor a mayor
 function solution2(array) {
-  const arrOrder = array.sort((a, b) => a - b); //  [1, 2, 3, 5, 7, 8, 11]
-  return arrOrder;
+  const arrOrder2 = array.sort((a, b) => a - b); //  [1, 2, 3, 5, 7, 8, 11]
+  return arrOrder2;
 }
+
+console.log(solution2([3, 1, 11, 5, 2, 7, 8]));
+
 
 //Lecturas de Referencia 
 //======================
