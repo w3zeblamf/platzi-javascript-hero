@@ -3,7 +3,7 @@
 
 ## Lenguage de programación
 
-### JavaScript 
+### - JavaScript 
 
 ## ¿Cómo funciona #PlatziHero?
 
