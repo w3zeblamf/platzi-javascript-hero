@@ -313,3 +313,26 @@ El concepto de Hoisting fue pensado como una manera general de referirse a cómo
 Conceptualmente, por ejemplo, una estricta definición de hoisting sugiere que las declaraciones de variables y funciones son físicamente movidas al comienzo del código, pero esto no es lo que ocurre en realidad. Lo que sucede es que las declaraciones de variables y funciones son asignadas en memoria durante la fase de compilación, pero quedan exactamente en dónde las has escrito en el código. (mdn) */
 
 
+//*Desafío 17.- ¿Cuál es el resultado del siguiente código?😎
+//**=======================================================
+
+const frutas = [
+  {id: 1, name: 'Lime', quantity: 5 },
+  {id: 2, name: 'Apple', quantity: 30 },
+  {id: 3, name: 'Pineapple', quantity: 3 }
+];
+
+const counting = frutas.some((frutas) => frutas.quantity > 5);
+
+console.log(counting) // true
+
+/* 
+Respuesta Correcta: A) true
+El método some() comprueba si al menos un elemento del array cumple con la condición implementada por la función proporcionada.
+
+En el ejemplo tenemos un arreglo de elementos (fruits) y tenemos una variable asignada a count con la cual estamos utilizando el método some() para validar si el arreglo cumple con la condición implementada, la cantidad sea mayor a 5.
+
+some() ejecuta la función callback una vez por cada elemento presente en el array hasta que encuentre uno donde callback retorna un valor verdadero (true). Si se encuentra dicho elemento, some() retorna true inmediatamente. Si no, some() retorna false.
+*/
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
