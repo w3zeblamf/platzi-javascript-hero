@@ -1,5 +1,5 @@
 
-# Mis soluciones a los retos interactivos de 'Platzi Javascript Hero'
+# Soluciones a los retos interactivos de 'Platzi Javascript Hero'
 
 ## Lenguage de programación
 
