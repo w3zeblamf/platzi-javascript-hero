@@ -336,3 +336,26 @@ some() ejecuta la función callback una vez por cada elemento presente en el arr
 */
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+
+
+//*Desafío 18.- ¿Qué imprime este código JavaScript?_Operador NOT lógico😎
+//**====================================================================
+
+!!null;
+!!'';
+!!1;
+
+console.log(!!null); //false
+console.log(!!'') //false
+console.log(!!1) //true
+
+/*
+El operador !! realiza una doble negación.
+
+En el primer caso, por coerción de tipos, null es un valor falsy, si lo negamos 2 veces, tendríamos false.
+
+En el segundo caso, por coerción de tipos, "" es un valor falsy, si lo negamos 2 veces tendríamos false.
+
+Por último, el tercer caso, y nuevamente por coerción de tipos, el valor 1 es un valor truthy, si lo negamos 2 veces, obtendremos true. */
+
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators#logico
