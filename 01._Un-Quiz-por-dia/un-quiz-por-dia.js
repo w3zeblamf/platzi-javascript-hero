@@ -346,8 +346,8 @@ some() ejecuta la función callback una vez por cada elemento presente en el arr
 !!1;
 
 console.log(!!null); //false
-console.log(!!'') //false
-console.log(!!1) //true
+console.log(!!''); //false
+console.log(!!1); //true
 
 /*
 El operador !! realiza una doble negación.
@@ -359,3 +359,20 @@ En el segundo caso, por coerción de tipos, "" es un valor falsy, si lo negamos 
 Por último, el tercer caso, y nuevamente por coerción de tipos, el valor 1 es un valor truthy, si lo negamos 2 veces, obtendremos true. */
 
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators#logico
+
+
+//*Desafío 19.- ¿Qué imprime este código JavaScript?_Object_😎
+//**====================================================================
+
+function getAge(...args) {
+  console.log(typeof args);
+}
+
+getAge(21); // Object
+
+/* Respuesta Correcta: C) object
+Cuando usamos la sintaxis de ... en los parámetros de una función (ES6: Rest Operator) convertimos a dicho parámetro a un arreglo.
+
+Entonces es tentador marcar la opción B: "array" pero esto sería un error de novato. En JavaScript no existe el tipo de dato array, para tipos no primitivos el lenguaje los evalua como object. Por ese motivo la respuesta correcta es la opción C: "object". */
+
+
