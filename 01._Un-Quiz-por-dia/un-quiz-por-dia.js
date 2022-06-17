@@ -376,3 +376,33 @@ Cuando usamos la sintaxis de ... en los parámetros de una función (ES6: Rest O
 Entonces es tentador marcar la opción B: "array" pero esto sería un error de novato. En JavaScript no existe el tipo de dato array, para tipos no primitivos el lenguaje los evalua como object. Por ese motivo la respuesta correcta es la opción C: "object". */
 
 
+//* Desafío 20.- ¿Qué crees que imprime el siguiente código?_Desestructuración_😎
+//**===========================================================================
+
+const frutas1 = ['Mango','Manzana', 'Naranja', 'Pera'];
+//    indice =     0       1            2       3
+
+const {3: pera} = frutas1; // indice = 3
+//const[mango] = frutas1; // indice = 0
+//const[,,fruta] = frutas1; // indice = 2
+//const[,manzana] = frutas1; // indice = 1
+
+//console.log(mango) // 'Mango'
+console.log(pera) // 'Pera'
+//console.log(fruta) // 'Naranja'
+//console.log(manzana) // 'Manzana'
+
+/*
+Respuesta Correcta: D) Pera
+
+Para usar la desestructuración en arreglos es importante tener en cuenta los índices de los elementos. Por ello para acceder a Pera en el arreglo frutas hariamos algo como:
+
+const [, , , pera] = frutas;
+
+Donde cada , representa el salto de un índice del arreglo.
+
+Para una sistaxis mas breve podemos usar esto:
+
+const { 3:pera } = frutas;
+
+Donde el 3 representa las posiciones que deseamos saltar. Nota que aunque frutas sea un arreglo usamos {} para la desestructuración */
