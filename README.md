@@ -40,7 +40,7 @@ Ejemplo:
 
 ### Lecturas de referencia 
 
-En cada desafío resuelto se anexa la referencia de la lectura recomendada de la pagina oficial 'MDN Web Docs', anteriormente Mozilla Developer Network.
+En cada desafío interactivo resuelto  se anexa la referencia de la lectura recomendada de la pagina oficial 'MDN Web Docs', anteriormente Mozilla Developer Network.
 
 - https://developer.mozilla.org/es/docs/Web/JavaScript
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript
