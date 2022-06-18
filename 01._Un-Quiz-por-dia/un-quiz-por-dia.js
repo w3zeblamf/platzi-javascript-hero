@@ -407,3 +407,13 @@ const { 3:pera } = frutas;
 
 Donde el 3 representa las posiciones que deseamos saltar. Nota que aunque frutas sea un arreglo usamos {} para la desestructuración */
 
+//*Desafío 21.- ¿Qué imprime este código JavaScript?_Spread Operator_😎
+//**====================================================================
+
+console.log([...'Oscar']);
+
+/* 
+Respuesta Correcta: A) ["O", "s", "c", "a", "r"]
+Un string es un elemento iterable en JavaScript, por ende es posible usar el spread operator directamente obteniendo la propagación de la cadena letra por letra.
+*/ 
+
