@@ -406,3 +406,4 @@ Para una sistaxis mas breve podemos usar esto:
 const { 3:pera } = frutas;
 
 Donde el 3 representa las posiciones que deseamos saltar. Nota que aunque frutas sea un arreglo usamos {} para la desestructuración */
+
