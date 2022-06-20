@@ -31,5 +31,6 @@ console.log(solution([2, 4, 5, 6])); // [4,8,10,12]
 
 //Referencia MDN Web Docs
 //=========================
+
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
