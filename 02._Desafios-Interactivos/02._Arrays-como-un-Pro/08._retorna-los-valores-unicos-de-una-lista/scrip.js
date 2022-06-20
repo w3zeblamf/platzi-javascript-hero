@@ -41,7 +41,6 @@ console.log(
 // Solución 2 (Platzi)
 //=========================
 
-
 function solution2(array){
   return array
     .filter((item, i, array) => array.indexOf(item) === i)
@@ -57,6 +56,7 @@ console.log(
 
 //MDN Web Docs
 //=============
+
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 //https://developer.mozilla.org/es/docs/Web/API/Element/setAttribute
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
