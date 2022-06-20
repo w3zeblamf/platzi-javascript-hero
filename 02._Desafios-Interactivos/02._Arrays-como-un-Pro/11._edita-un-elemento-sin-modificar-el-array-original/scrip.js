@@ -38,7 +38,6 @@ console.log(solution([1, 2, 3], 0, 'change'));
 console.log(solution(["A", "B", "C"], 1, 1));
 
 
-
 // Otras Soluciones
 
 // Solución 2 (Platzi)
@@ -61,5 +60,6 @@ console.log(solution(["A", "B", "C"], 1, 1));
 
 //MDN Web Docs
 //=============
+
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
