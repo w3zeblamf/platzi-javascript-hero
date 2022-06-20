@@ -32,7 +32,6 @@ console.log(solucion([1, 1, 1])); // 3
 console.log(solucion([2, 4, 8])); // 14
 
 
-
 // Otras Soluciones
 
 //Solución 2 
