@@ -35,7 +35,6 @@ console.log(solution([1, 3, 5])); //false
 
 
 // Otras Soluciones
-
 // Solución 2 
 //=========================
 
