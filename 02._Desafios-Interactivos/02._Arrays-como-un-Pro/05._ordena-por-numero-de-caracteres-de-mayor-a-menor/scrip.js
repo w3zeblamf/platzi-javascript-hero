@@ -29,7 +29,6 @@ Output
 ]
 */
 
-
 // Solución 1 (Mi Solución)
 
 //Ordena por número de caracteres de menor a mayor
@@ -40,7 +39,6 @@ function solution(array) {
 
 console.log(solution(['Hola', 'Viajar', 'Sol', 'Aprender'])); 
 // ["Sol", "Hola", "Viajar", "Aprender"]
-
 
 
 // Otras Soluciones
@@ -62,4 +60,5 @@ console.log(solution(['Hola', 'Viajar', 'Sol', 'Aprender']));
 
 //MDN Web Docs
 //=============
+
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
