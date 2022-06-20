@@ -32,8 +32,6 @@ console.log(solution(['amor', 'sol', 'piedra', 'día']));
 //=========================
 
 
-
-
 //Lecturas de Referencia 
 //======================
 
