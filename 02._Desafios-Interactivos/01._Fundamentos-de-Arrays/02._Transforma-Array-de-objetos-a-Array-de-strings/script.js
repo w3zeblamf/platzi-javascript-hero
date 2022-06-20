@@ -5,7 +5,8 @@ como evitar que uses variables no declaradas. (https://www.w3schools.com/js/js_s
 
 //**Desafío 02.- Transforma un Array de objetos a un Array de strings
 
-/*  En este desafío tienes un array de objetos que representan datos de personas con los siguientes atributos:
+/*
+En este desafío tienes un array de objetos que representan datos de personas con los siguientes atributos:
 
 name
 lastName
@@ -32,7 +33,6 @@ solution([
 Output
 
 ['Nicolas', 'Valentina']
-
 */
 
 //Solución 1 (Mi solución)
