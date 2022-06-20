@@ -412,9 +412,20 @@ Donde el 3 representa las posiciones que deseamos saltar. Nota que aunque frutas
 
 console.log([...'Oscar']);
 
-
 /* 
 Respuesta Correcta: A) ["O", "s", "c", "a", "r"]
 Un string es un elemento iterable en JavaScript, por ende es posible usar el spread operator directamente obteniendo la propagación de la cadena letra por letra.
 */ 
 
+
+
+//*Desafío 22.- ¿Qué imprime este código JavaScript?_typeof_😎
+//**=============================================================
+
+console.log(typeof ([] + []));
+
+/*
+Respuesta Correcta: D) string
+El operador + por lo general intentará realizar una concateneción, en este caso, el interprete de JavaScript, por coerción de tipos intentará convertir los arreglos a cadenas de texto, haciendo algo como esto aunque no lo veamos:
+
+console.log(typeof ([].toString() + [].toString())); //string console.log(typeof ("" + "")); console.log(typeof ("")); //string */
