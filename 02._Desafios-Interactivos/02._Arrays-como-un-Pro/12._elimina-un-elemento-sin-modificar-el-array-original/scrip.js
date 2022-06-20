@@ -49,11 +49,14 @@ function solution(array, index){
 console.log(solution([1, 2, 3], 0));
 console.log(solution(["A", "B", "C"], 1));
 
+
+
 //Lecturas de Referencia 
 //======================
 
 //MDN Web Docs
 //=============
+
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 
