@@ -27,7 +27,6 @@ function solucion(words, query) {
   return buscador
   }
   
-  
   console.log(solucion(["ana", "santi", "nico", "anastasia"], "an"));
   console.log(solucion(["ana", "santi", "nico", "anastasia"], "xyz"));
 
