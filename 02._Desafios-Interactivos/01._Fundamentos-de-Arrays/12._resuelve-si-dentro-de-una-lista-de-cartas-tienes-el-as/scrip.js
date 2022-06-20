@@ -37,6 +37,7 @@ console.log(solution(['diamonds', 'hearts', 'spades']));
 // 	return rta || false;
 // }; 
 
+
 //Lecturas de Referencia 
 //======================
 
