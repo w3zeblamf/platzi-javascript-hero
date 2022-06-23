@@ -429,3 +429,31 @@ Respuesta Correcta: D) string
 El operador + por lo general intentará realizar una concateneción, en este caso, el interprete de JavaScript, por coerción de tipos intentará convertir los arreglos a cadenas de texto, haciendo algo como esto aunque no lo veamos:
 
 console.log(typeof ([].toString() + [].toString())); //string console.log(typeof ("" + "")); console.log(typeof ("")); //string */
+
+
+//*Desafío 23.- ¿Qué imprime este código JavaScript?_igualdad-estricta_😎
+//**===================================================================
+
+/*
+Respuesta Correcta: C) true false false
+En el primer console.log:
+
+console.log(a == b);
+
+Vemos que hacemos una comparación débil con el operador ==, esto significa que solo compararemos los valores de a y b, por ende obtendremos un true.
+
+En el segundo console.log:
+
+console.log(a === b);
+
+Hacemos una comparación estricta usando el operador ===, esto significa que compararemos valores y tipos de datos, a y b tienen el mismo valor, pero a es de tipo number y b esta siendo inicializada usando el contructor Number, por ende es un objeto; entonces obtendremos un false.
+
+En el tercer console.log
+
+console.log(b === c);
+
+Al igual que el caso anterior, intentamos comparar de manera estricta un objeto contra un número, entonces tendremos como resultado un false.
+
+Conclusión: trata de usar simpre ===.
+*/
+
