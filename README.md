@@ -1,6 +1,6 @@
 
 # Soluciones a los retos interactivos de 'Platzi Javascript Hero'
-git 
+
 ## Lenguage de programación
 
 ### - JavaScript 
