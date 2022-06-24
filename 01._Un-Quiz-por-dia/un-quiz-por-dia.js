@@ -418,7 +418,6 @@ Un string es un elemento iterable en JavaScript, por ende es posible usar el spr
 */ 
 
 
-
 //*Desafío 22.- ¿Qué imprime este código JavaScript?_typeof_😎
 //**=============================================================
 
@@ -457,3 +456,16 @@ Al igual que el caso anterior, intentamos comparar de manera estricta un objeto 
 Conclusión: trata de usar simpre ===.
 */
 
+//*Desafío 24.- Explica este código JavaScript_spread operator_😎
+
+const nombres1 = ['Ana', 'Sofia', 'Carmen', ...['Cris']];
+const [, , , miNombre1] = nombres;
+console.log(miNombre1['length']);
+
+/*
+Respuesta Correcta: D) 4
+Cuando pretendemos hacer una desestructuración de arreglos es súper importante tener en cuenta los índices del mismo. Usando la sintaxis de la , podemos saltar posiciones del arreglo hasta encontrar la propiedad que se desea obtener.
+
+En el ejemplo usamos 3 veces , por ello saltamos 3 posiciones del arreglo nombres para poder obtener (spread operator) la cadena Cris del arreglo anidado.
+
+Finalmente aplicamos el método length con sintaxis de corchete. */
