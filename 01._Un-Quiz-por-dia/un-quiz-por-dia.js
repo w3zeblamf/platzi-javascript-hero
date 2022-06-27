@@ -503,7 +503,7 @@ Quiere decir que no estamos copiando el valor, sino la referencia, por lo tanto,
 */
 
 //*Desafío 26.- Explica este código JavaScript_parseInt_😎
-//**===================================================================
+//**========================================================
 
 const num = parseInt("7*6", 10);
 console.log(num); //?
@@ -517,3 +517,24 @@ parseInt toma los valores validos de izquierda a derecha, dicho esto, solo tomar
 
 En conclusión, solo convierte al 7 de string a number.
 */
+
+//*Desafío 27.- Explica este código JavaScript_método_.map_😎
+//**===========================================================
+
+[1,2,3].map((num ) => {
+  if (typeof num === 'number') return;
+    return num * 2;
+  });
+
+  /* Respuesta Correcta: C) [undefined, undefined, undefined]
+El método `map` es propio del paradigma de la programación funcional. Este método siempre retorna una nuevo arreglo.
+
+En el ejemplo, puesto que estamos iterando sobre un arreglo de números, la condición evaluará `true` para cada uno de los elementos del arreglo, pero hay 2 sentencias `return`. JavaScript ignora todo el código que esta después del primer `return` que encuentra. Dicho esto, tendríamos algo así:
+
+[1, 2, 3].map(num => { if (typeof num === "number") return; });
+
+Ahora, si bien la condición se evalua a `true`, el `return` no devuelve nada, simplemente hace que el código se salga del `map`.
+
+Cuando no devolvemos nada en `return`, `map` regresa siempre `undefined`.
+
+Al tener 3 elementos en el arreglo, y recordando siempre que map regresa un nuevo arreglo, obtenemos como resultado final un arreglo de 3 `undefined`*/
