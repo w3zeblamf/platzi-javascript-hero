@@ -7,9 +7,9 @@ like preventing you from using undeclared variables. (https://www.w3schools.com/
 //**==========================================================
 
 const fruits = [
-  { id: 1, name: 'Kiwi', quantity: 5 },
-  { id: 2, name: 'Banana', quantity: 30 },
-  { id: 3, name: 'Pineapple', quantity: 3 },
+	{ id: 1, name: 'Kiwi', quantity: 5 },
+	{ id: 2, name: 'Banana', quantity: 30 },
+	{ id: 3, name: 'Pineapple', quantity: 3 },
 ];
 
 const count = fruits.some((fruit) => fruit.quantity > 30);
@@ -26,12 +26,11 @@ some() ejecuta la función callback una vez por cada elemento presente en el arr
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
 //https://github.com/platzi/curso-manipulacion-de-arrays/tree/8-some
 
-
 //*Desafío 02.- Explica este código JavaScript 😎
 //**=============================================
 
 console.log(typeof ('22' - 0));
- // number
+// number
 
 /* Respuesta Correcta: A) number
 Podemos convertir un string valido a number tan solo restándole 0. Es un hack interesante y una alternativa valida a usar el objeto Number, la función parseInt o el operador +.
@@ -82,7 +81,7 @@ join es un método de arreglos que convierte un arreglo en cadena nuevamente dep
 const multiplicar = (a) => (b) => a * b;
 //B
 const test = (nombre, action) => {
-  return action(nombre);
+	return action(nombre);
 };
 console.log(test('Ana', console.log)); //Ana (por consola)
 
@@ -166,7 +165,6 @@ Quiere decir que no estamos copiando el valor, sino la referencia, por lo tanto,
 //*Desafío 08.- Explica este código JavaScript 😎
 //**=============================================
 
-
 let nombre = 'Cris';
 let edad = 25;
 console.log('Mi nombre es %s y tengo %d', nombre, edad);
@@ -195,16 +193,15 @@ En el ejemplo usamos 3 veces , por ello saltamos 3 posiciones del arreglo nombre
 Finalmente aplicamos el método length con sintaxis de corchete. 
 */
 
-
 //*Desafío 11.- Explica este código JavaScript 😎
 //**=============================================
 
 function test() {
-  let nombre = 'Alex';
-  if (true) {
-    console.log(nombre);
-    let nombre = 'Oscar';
-  }
+	let nombre = 'Alex';
+	if (true) {
+		console.log(nombre);
+		let nombre = 'Oscar';
+	}
 }
 console.log(test());
 
@@ -214,7 +211,7 @@ Dos aspectos a tomar en cuenta en este ejemplo.
 
 Primero, recordar que las variables declaradas con let o const tienen scope de bloque.
 Segundo, recordar que las variables declaradas con let o const no tienen hoisting, cuando intentamos acceder a una variable antes de su inicializción entra en la Temporal Dead Zone. La variable nombre no puede ser mostrada sin antes inicializarla, nombre esta en su Temporal Dead Zone
-*/ 
+*/
 
 //*Desafío 12.- Explica este código JavaScript (Global_Objects/Array/at) 😎
 //**====================================================================
@@ -266,7 +263,6 @@ Veamos caso por caso:
 Conclusión: false false true.
 */
 
-
 //*Desafío 14.- ¿Cuál es el resultado del siguiente código?😎
 //**=======================================================
 
@@ -298,7 +294,7 @@ El código representado es un ejemplo de la implementación de una función redu
 anotherFn();
 
 function anotherFn() {
-  console.log(myNumber + myNumber);
+	console.log(myNumber + myNumber);
 }
 
 let myNumber = 4;
@@ -312,19 +308,18 @@ El concepto de Hoisting fue pensado como una manera general de referirse a cómo
 
 Conceptualmente, por ejemplo, una estricta definición de hoisting sugiere que las declaraciones de variables y funciones son físicamente movidas al comienzo del código, pero esto no es lo que ocurre en realidad. Lo que sucede es que las declaraciones de variables y funciones son asignadas en memoria durante la fase de compilación, pero quedan exactamente en dónde las has escrito en el código. (mdn) */
 
-
 //*Desafío 17.- ¿Cuál es el resultado del siguiente código?😎
 //**=======================================================
 
 const frutas = [
-  {id: 1, name: 'Lime', quantity: 5 },
-  {id: 2, name: 'Apple', quantity: 30 },
-  {id: 3, name: 'Pineapple', quantity: 3 }
+	{ id: 1, name: 'Lime', quantity: 5 },
+	{ id: 2, name: 'Apple', quantity: 30 },
+	{ id: 3, name: 'Pineapple', quantity: 3 },
 ];
 
 const counting = frutas.some((frutas) => frutas.quantity > 5);
 
-console.log(counting) // true
+console.log(counting); // true
 
 /* 
 Respuesta Correcta: A) true
@@ -336,7 +331,6 @@ some() ejecuta la función callback una vez por cada elemento presente en el arr
 */
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
-
 
 //*Desafío 18.- ¿Qué imprime este código JavaScript?_Operador NOT lógico😎
 //**====================================================================
@@ -360,12 +354,11 @@ Por último, el tercer caso, y nuevamente por coerción de tipos, el valor 1 es 
 
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators#logico
 
-
 //*Desafío 19.- ¿Qué imprime este código JavaScript?_Object_😎
 //**====================================================================
 
 function getAge(...args) {
-  console.log(typeof args);
+	console.log(typeof args);
 }
 
 getAge(21); // Object
@@ -375,20 +368,19 @@ Cuando usamos la sintaxis de ... en los parámetros de una función (ES6: Rest O
 
 Entonces es tentador marcar la opción B: "array" pero esto sería un error de novato. En JavaScript no existe el tipo de dato array, para tipos no primitivos el lenguaje los evalua como object. Por ese motivo la respuesta correcta es la opción C: "object". */
 
-
 //* Desafío 20.- ¿Qué crees que imprime el siguiente código?_Desestructuración_😎
 //**===========================================================================
 
-const frutas1 = ['Mango','Manzana', 'Naranja', 'Pera'];
+const frutas1 = ['Mango', 'Manzana', 'Naranja', 'Pera'];
 //    indice =     0       1            2       3
 
-const {3: pera} = frutas1; // indice = 3
+const { 3: pera } = frutas1; // indice = 3
 //const[mango] = frutas1; // indice = 0
 //const[,,fruta] = frutas1; // indice = 2
 //const[,manzana] = frutas1; // indice = 1
 
 //console.log(mango) // 'Mango'
-console.log(pera) // 'Pera'
+console.log(pera); // 'Pera'
 //console.log(fruta) // 'Naranja'
 //console.log(manzana) // 'Manzana'
 
@@ -415,8 +407,7 @@ console.log([...'Oscar']);
 /* 
 Respuesta Correcta: A) ["O", "s", "c", "a", "r"]
 Un string es un elemento iterable en JavaScript, por ende es posible usar el spread operator directamente obteniendo la propagación de la cadena letra por letra.
-*/ 
-
+*/
 
 //*Desafío 22.- ¿Qué imprime este código JavaScript?_typeof_😎
 //**=============================================================
@@ -428,7 +419,6 @@ Respuesta Correcta: D) string
 El operador + por lo general intentará realizar una concateneción, en este caso, el interprete de JavaScript, por coerción de tipos intentará convertir los arreglos a cadenas de texto, haciendo algo como esto aunque no lo veamos:
 
 console.log(typeof ([].toString() + [].toString())); //string console.log(typeof ("" + "")); console.log(typeof ("")); //string */
-
 
 //*Desafío 23.- ¿Qué imprime este código JavaScript?_igualdad-estricta_😎
 //**===================================================================
@@ -459,7 +449,6 @@ Conclusión: trata de usar simpre ===.
 //*Desafío 24.- Explica este código JavaScript_spread operator_😎
 //**===================================================================
 
-
 const nombres1 = ['Ana', 'Sofia', 'Carmen', ...['Cris']];
 const [, , , miNombre1] = nombres;
 console.log(miNombre1['length']);
@@ -475,7 +464,7 @@ Finalmente aplicamos el método length con sintaxis de corchete. */
 //*Desafío 25.- ¿Cuál es resultado de person.name?_😎
 //**==================================================
 
-const person = { name: 'nico', age: 28}
+const person = { name: 'nico', age: 28 };
 const newPerson = person;
 newPerson.name = 'santi';
 console.log(person.name);
@@ -505,7 +494,7 @@ Quiere decir que no estamos copiando el valor, sino la referencia, por lo tanto,
 //*Desafío 26.- Explica este código JavaScript_parseInt_😎
 //**========================================================
 
-const num = parseInt("7*6", 10);
+const num = parseInt('7*6', 10);
 console.log(num); //?
 
 /* Respuesta Correcta: C) 7
@@ -521,12 +510,12 @@ En conclusión, solo convierte al 7 de string a number.
 //*Desafío 27.- Explica este código JavaScript_método_.map_😎
 //**===========================================================
 
-[1,2,3].map((num ) => {
-  if (typeof num === 'number') return;
-    return num * 2;
-  });
+[1, 2, 3].map((num) => {
+	if (typeof num === 'number') return;
+	return num * 2;
+});
 
-  /* Respuesta Correcta: C) [undefined, undefined, undefined]
+/* Respuesta Correcta: C) [undefined, undefined, undefined]
 El método `map` es propio del paradigma de la programación funcional. Este método siempre retorna una nuevo arreglo.
 
 En el ejemplo, puesto que estamos iterando sobre un arreglo de números, la condición evaluará `true` para cada uno de los elementos del arreglo, pero hay 2 sentencias `return`. JavaScript ignora todo el código que esta después del primer `return` que encuentra. Dicho esto, tendríamos algo así:
@@ -538,3 +527,36 @@ Ahora, si bien la condición se evalua a `true`, el `return` no devuelve nada, s
 Cuando no devolvemos nada en `return`, `map` regresa siempre `undefined`.
 
 Al tener 3 elementos en el arreglo, y recordando siempre que map regresa un nuevo arreglo, obtenemos como resultado final un arreglo de 3 `undefined`*/
+
+//*Desafío 28.- Explica este código JavaScript_variables_😎
+//**=========================================================
+
+let x = 10;
+if (true) {
+	let y = 20;
+	var z = 30;
+	console.log(x + y + z);
+}
+
+console.log(x + z);
+
+/* Respuesta Correcta: A) 60, 40
+Las variables declaradas con let y const tienen un contexto de bloque, esto significa que solo podrán ser accedidas dentro del bloque de llaves donde fueron declaradas, por ejemplo dentro de un bloque if o dentro de una función.
+
+Esta premisa se cumple siempre y cuando esten declaradas dentro de un bloque, si una variable esta fuera de todo bloque entonces se dice que es una variable global y por ende puede ser accedida desde cualquier parte del código.
+
+let x = 10 es una variable global, puesto que no esta encerrada en ningún tipo de bloque.
+
+Dentro del if`
+
+console.log(x + y + z);
+
+En el bloque del if no se tiene acceso a ninguna variable x, por lo tanto javascript subirá al siguiente contexto para buscar una variable x, al encontrarla recien realiza la suma x + y + z que sería 60.
+
+En el último console:
+
+console.log(x + z);
+
+La variable x esta en el contexto global, por ende accedemos a su valor sin problema alguno.
+
+La variable z esta dentro del bloque if y no deberiamos poder acceder a ella, pero z esta declarada con var, esto la convierte en una variable con contexto de función y no de bloque, entonces accedemos a su valor, para poder sumar x + z que sería 40. */
