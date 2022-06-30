@@ -560,3 +560,38 @@ console.log(x + z);
 La variable x esta en el contexto global, por ende accedemos a su valor sin problema alguno.
 
 La variable z esta dentro del bloque if y no deberiamos poder acceder a ella, pero z esta declarada con var, esto la convierte en una variable con contexto de función y no de bloque, entonces accedemos a su valor, para poder sumar x + z que sería 40. */
+
+//*Desafío 29.- Explica este código JavaScript_hoisting_😎
+//**========================================================
+
+// primera función
+function sumar(a, b) {
+  return a + b;
+}
+
+// segunda función
+const sumar = (a, b) => {
+  return a + b;
+};
+
+
+/*
+Respuesta Correcta: C) La primera función tiene hoisting, la segunda no.
+Con una función como la primera es posible hacer esto:
+
+console.log(suma(3,5)); //8
+function sumar(a, b){
+return a + b;
+}  
+
+Podemos llamar a la función antes de su declaración, característica que se denomina hoisting.
+
+Con una función de flecha esto no es posible:
+
+console.log(sumar(3,5)); // ReferenceError: cant access lexical declaration sumar before initialization
+
+const sumar = (a, b) => {
+return a + b;
+}  
+
+*/
