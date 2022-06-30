@@ -50,7 +50,6 @@ console.log(solution([1, 2, 3], 0));
 console.log(solution(["A", "B", "C"], 1));
 
 
-
 //Lecturas de Referencia 
 //======================
 
