@@ -595,3 +595,8 @@ return a + b;
 }  
 
 */
+
+//*Desafío 30.- Explica este código JavaScript_spread operator_😎
+//**===========================================================
+
+//Desafio-30.-Explica-este-codigo-JavaScript_spread-operator
