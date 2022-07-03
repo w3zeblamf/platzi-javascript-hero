@@ -638,9 +638,9 @@ JSON.stringify puede recibir un 2do parámetro opcional denominado replacer, pue
 //*Desafío 32.- Explica este código JavaScript_scope_😎
 //**===========================================================
 
-let num = 10;
+let numb = 10;
 
-const increaseNumber = () => num++;
+const increaseNumber = () => numb++;
 const increasePassedNumber = number => number++;
 
 const num1 = increaseNumber();
