@@ -738,3 +738,6 @@ const rta1 = five(6);
 // Podemos hacer más funciones multiplicadoras como:
 const seven = makeMulti(7);
 const two = makeMulti(2); */
+
+
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Closures
