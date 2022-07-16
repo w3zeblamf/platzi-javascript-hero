@@ -809,3 +809,30 @@ console.log(sayHi()); // 🤔?
 
 /* Respuesta Correcta: B) Hi there, undefined
 En javascript los parámetros tienen por defecto el valor undefined, esto quiere decir que sino pasamos ningún parámetro a una función que los necesite tendremos undefined. */
+
+
+//*Desafío 40.- Explica este código JavaScript_variables_😎
+//**========================================================
+
+function checkAge(age) {
+	if (age < 18) {
+		const message = "Sorry, you're too young.";
+	} else {
+		const message = "Yay! You're old enough!";
+	}
+	return message;
+}
+console.log(checkAge(21)); //Error: message is not defined
+
+/* 
+Respuesta Correcta: C) ReferenceError
+const tiene scope de bloque para las variables, cuando intentamos hacer return message la variable message no puede ser accedida. Tanto message en el bloque if como en el else son variables diferentes por que están en bloques diferentes pese a que se llaman igual. Como no es posible acceder a la variable la respuesta es ReferenceError.
+*/
+
+//*Desafío 41.- Explica este código JavaScript_str-iterables_😎
+//**==========================================================
+
+console.log('I want pizza'[0]);
+
+/* Respuesta Correcta: B) I
+Las cadenas de texto en javascript son iterables, por ello, al igual que con los arreglos es posible acceder a sus caracteres individuales con la notación de corchetes. */
