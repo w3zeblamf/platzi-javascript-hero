@@ -836,3 +836,29 @@ console.log('I want pizza'[0]);
 
 /* Respuesta Correcta: B) I
 Las cadenas de texto en javascript son iterables, por ello, al igual que con los arreglos es posible acceder a sus caracteres individuales con la notación de corchetes. */
+
+
+//*Desafío 42.- Explica este código JavaScript_REST_😎
+//**==========================================================
+
+// function getItems(fruitList, ...args, favoriteFruit) {
+//   return [...fruitList, ...args, favoriteFruit]
+// }
+// getItems(["banana", "apple"], "pear", "orange"); //🤔?
+
+
+
+/* 
+Respuesta Correcta: D) SyntaxError
+
+Cuando vemos en la lista de parámetros de una función la sintaxis de tres puntos ... nos referimos a lo que se denomina un parámetro de tipo REST. En el cuerpo de la función este tipo de parámetro se trata como un arreglo pero siempre debe estar declarado al final de la lista de parámetros, caso contrario tendremos un error de sintaxis.
+
+Si volvemos a escribir la función pero esta vez teniendo en cuenta lo anterior dicho:
+  function getItems(fruitList, favoriteFruit, ...args) {
+
+ return [...fruitList, ...args, favoriteFruit]
+
+ }
+
+ console.log(getItems(["banana", "apple"], "pear", "orange"));  
+*/
