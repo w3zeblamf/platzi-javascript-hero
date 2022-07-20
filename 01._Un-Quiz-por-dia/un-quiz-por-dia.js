@@ -566,14 +566,13 @@ La variable z esta dentro del bloque if y no deberiamos poder acceder a ella, pe
 
 // primera función
 function sumar(a, b) {
-  return a + b;
+	return a + b;
 }
 
 // segunda función
 const sumar = (a, b) => {
-  return a + b;
+	return a + b;
 };
-
 
 /*
 Respuesta Correcta: C) La primera función tiene hoisting, la segunda no.
@@ -604,7 +603,6 @@ const admin = { admin: true, ...user };
 
 console.log(admin); //🤔?
 
-
 /* Respuesta Correcta: B) { admin: true, name: "Lydia", age: 21 }
 El spread operator en este ejemplo se encarga de propagar el objeto user dentro del objeto admin.
 
@@ -615,19 +613,16 @@ Sin usar el spread operator tendríamos un objeto anidado:
 
 Justamente el spread operator se encarga de expandir user para evitar el anidamiento. */
 
-
-
 //*Desafío 31.- Explica este código JavaScript_JSON.stringify_😎
 //**===========================================================
 
-
 const settings = {
-  username: "lydiahallie",
-  level: 19,
-  health: 90
+	username: 'lydiahallie',
+	level: 19,
+	health: 90,
 };
 
-const data = JSON.stringify(settings, ["level", "health"]);
+const data = JSON.stringify(settings, ['level', 'health']);
 console.log(data); //🤔?
 
 /*
@@ -641,14 +636,13 @@ JSON.stringify puede recibir un 2do parámetro opcional denominado replacer, pue
 let numb = 10;
 
 const increaseNumber = () => numb++;
-const increasePassedNumber = number => number++;
+const increasePassedNumber = (number) => number++;
 
 const num1 = increaseNumber();
 const num2 = increasePassedNumber(num1);
 
 console.log(num1); // 🤔
 console.log(num2); // 🤔
-
 
 /* 
 Respuesta Correcta: A) 10, 10
@@ -663,7 +657,7 @@ num1 se pasa como parámetro a increasePassedNumber que hace lo mismo que increa
 const value = { number: 10 };
 
 const multiply = (x = { ...value }) => {
-  console.log((x.number *= 2));
+	console.log((x.number *= 2));
 };
 
 multiply(); //🤔?
@@ -714,7 +708,7 @@ Ambas variables serán objetos creados por medio de estos contructores, y no sol
 //**========================================================
 
 function makeMulti(x) {
-  return (y) => x * y;
+	return (y) => x * y;
 }
 
 const five = makeMulti(5);
@@ -739,15 +733,13 @@ const rta1 = five(6);
 const seven = makeMulti(7);
 const two = makeMulti(2); */
 
-
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Closures
-
 
 //*Desafío 36.- ¿Cuál es el resultado del siguiente código?_arrow functions_😎
 //**===========================================================================
 
 let Alimento = function (comida) {
-  this.comida = comida;
+	this.comida = comida;
 };
 
 Alimento.prototype.comerHoy = () => console.log('Hoy toca comer:', this.comida);
@@ -767,14 +759,14 @@ Por tal razón, la función flecha () => { ... } no sabe de this.comida */
 //*Desafío 37.- Explica este código JavaScript_for_in-of_😎
 //**========================================================
 
-const myLifeSummedUp = ["☕", "💻", "🍷", "🍫"];
+const myLifeSummedUp = ['☕', '💻', '🍷', '🍫'];
 
 for (let item in myLifeSummedUp) {
-  console.log(item); //🤔?
+	console.log(item); //🤔?
 }
 
 for (let item of myLifeSummedUp) {
-  console.log(item); //🤔?
+	console.log(item); //🤔?
 }
 
 /* 
@@ -789,7 +781,7 @@ En la practica los bucles for-of son más usados y ocasionalmente los bucles for
 //*Desafío 38.- ¿Cuál es el resultado del siguiente código?_método-map_😎
 //**======================================================================
 
-const array1 = ['aa', 'bbbb', 'ccc' ]
+const array1 = ['aa', 'bbbb', 'ccc'];
 const rta2 = array1.map((item) => item.length);
 
 console.log(rta2);
@@ -803,13 +795,12 @@ El método map() crea un nuevo array con los resultados de la llamada a la funci
 //**========================================================
 
 function sayHi(name) {
-  return `Hi there, ${name}`;
+	return `Hi there, ${name}`;
 }
 console.log(sayHi()); // 🤔?
 
 /* Respuesta Correcta: B) Hi there, undefined
 En javascript los parámetros tienen por defecto el valor undefined, esto quiere decir que sino pasamos ningún parámetro a una función que los necesite tendremos undefined. */
-
 
 //*Desafío 40.- Explica este código JavaScript_variables_😎
 //**========================================================
@@ -837,7 +828,6 @@ console.log('I want pizza'[0]);
 /* Respuesta Correcta: B) I
 Las cadenas de texto en javascript son iterables, por ello, al igual que con los arreglos es posible acceder a sus caracteres individuales con la notación de corchetes. */
 
-
 //*Desafío 42.- Explica este código JavaScript_REST_😎
 //**==========================================================
 
@@ -845,8 +835,6 @@ Las cadenas de texto en javascript son iterables, por ello, al igual que con los
 //   return [...fruitList, ...args, favoriteFruit]
 // }
 // getItems(["banana", "apple"], "pear", "orange"); //🤔?
-
-
 
 /* 
 Respuesta Correcta: D) SyntaxError
@@ -856,9 +844,25 @@ Cuando vemos en la lista de parámetros de una función la sintaxis de tres punt
 Si volvemos a escribir la función pero esta vez teniendo en cuenta lo anterior dicho:
   function getItems(fruitList, favoriteFruit, ...args) {
 
- return [...fruitList, ...args, favoriteFruit]
+return [...fruitList, ...args, favoriteFruit]
 
- }
+}
 
- console.log(getItems(["banana", "apple"], "pear", "orange"));  
+console.log(getItems(["banana", "apple"], "pear", "orange"));  
 */
+
+
+//*Desafío 43.- Explica este código JavaScript_TypeError_😎
+//**=======================================================
+
+const name1 = "Lydia"
+
+console.log(name1()) // 🤔?
+
+/*
+Respuesta Correcta: C) TypeError
+name no es ni hace referencia a una función, no tiene sentido intentar invocar a un string como si fuera una función.
+
+No pude ser SyntaxError por que no se cometió ningún error de tipeo, el código no esta mal escrito pero tampoco es un código valido. No puede ser ReferenceError por que no hay problemas de referencia al intentar acceder a la variable name.
+
+Se genera una excepción de tipo TypeError cuando un valor no es del tipo esperado, entonces se lanza un TypeError: name is not a function! */
