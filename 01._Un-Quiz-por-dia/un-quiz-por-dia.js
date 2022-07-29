@@ -866,3 +866,25 @@ name no es ni hace referencia a una función, no tiene sentido intentar invocar 
 No pude ser SyntaxError por que no se cometió ningún error de tipeo, el código no esta mal escrito pero tampoco es un código valido. No puede ser ReferenceError por que no hay problemas de referencia al intentar acceder a la variable name.
 
 Se genera una excepción de tipo TypeError cuando un valor no es del tipo esperado, entonces se lanza un TypeError: name is not a function! */
+
+
+//*Desafío 44.- Explica este código JavaScript_Set_😎
+//**=======================================================
+const set = new Set();
+
+set.add(1);
+set.add('Lydia');
+set.add({ name: 'Lydia' });
+
+for (let item of set) {
+  console.log(item + 2);
+}
+
+/* Respuesta Correcta: C) 3, Lydia2, [Object object]2
+A cada item del Set aplicamos el operador + con el número 2.
+
+Para 1 que es number realizamos una suma simple obteniendo como resultado 3.
+
+Para la cadena Lydia y por coerción de tipos convertimos al número 2 en string y realizamos una concatenación obteniendo Lydia2.
+
+Para el objeto { name: "Lydia" } nuevamente por coerción de tipos convertimos tanto al objeto y al número 2 a string obteniendo [Object object]2. */
