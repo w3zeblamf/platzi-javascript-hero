@@ -952,3 +952,18 @@ Si intentamos usar este hack con cadenas no numéricas la conversión se realiza
 
   console.log(typeof("aaa" - 0)); // number 
  console.log(("aaa" - 0)); // NaN   */
+
+
+ //*Desafío 48.-Explica este código JavaScript_array_😎
+//**===============================================================
+
+const numeros = [1, 2, 3, 4, 5];
+numeros.length = 0;
+console.log(numeros); // ?
+
+/*
+Respuesta Correcta: C) []
+El método lenght es un getter y un setter al mismo tiempo, esto quiere decir que podemos obtener valores y podemos establecer los mismos dependiendo de lo que se necesite.
+
+En este caso usar length y "setterlo" a 0 es una buena manera de borrar todos los elementos de un arreglo.
+*/
