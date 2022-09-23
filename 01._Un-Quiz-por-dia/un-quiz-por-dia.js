@@ -971,13 +971,13 @@ En este caso usar length y "setterlo" a 0 es una buena manera de borrar todos lo
 //*Desafío 49.-Explica este código JavaScript_variables_😎
 //**===============================================================
 
-let x = 10;
+let xx = 10;
 if (true) {
   let y = 20;
   var z = 30;
-  console.log(x + y + z);
+  console.log(xx + y + z);
 }
-console.log(x + z);
+console.log(xx + z);
 
 /* 
 Respuesta Correcta: A) 60, 40
