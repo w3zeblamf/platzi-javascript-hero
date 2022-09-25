@@ -1001,3 +1001,18 @@ La variable x esta en el contexto global, por ende accedemos a su valor sin prob
 
 La variable z esta dentro del bloque if y no deberiamos poder acceder a ella, pero z esta declarada con var, esto la convierte en una variable con contexto de función y no de bloque, entonces accedemos a su valor, para poder sumar x + z que sería 40.
 */
+
+//*Desafío 50.-Explica este código JavaScript_JSON.stringify_😎
+//**===============================================================
+
+const configuration = {
+	username: "lydiahallie",
+  level: 19,
+  health: 90
+}
+
+const datos =  JSON.stringify(configuration, ["level", "health"]);
+console.log(datos); //🤔?
+
+/* Respuesta Correcta: A) "{"level":19, "health":90}"
+JSON.stringify puede recibir un 2do parámetro opcional denominado replacer, puede ser una función o un arreglo, y se encarga de hacer un filtro de las propiedades del objeto que deseamos convertir a string, en el ejemplo solo deseamos convertir las propiedades ["level", "health"], ignorando username. */
