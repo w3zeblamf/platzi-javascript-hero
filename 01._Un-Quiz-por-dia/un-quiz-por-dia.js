@@ -1016,3 +1016,24 @@ console.log(datos); //🤔?
 
 /* Respuesta Correcta: A) "{"level":19, "health":90}"
 JSON.stringify puede recibir un 2do parámetro opcional denominado replacer, puede ser una función o un arreglo, y se encarga de hacer un filtro de las propiedades del objeto que deseamos convertir a string, en el ejemplo solo deseamos convertir las propiedades ["level", "health"], ignorando username. */
+
+
+//*Desafío 51.-Explica este código JavaScript_funciones_😎
+//**===============================================================
+
+
+let numero = 10;
+
+const increaseNumber1 = () => numero++;
+const increasePassedNumber1 = number => number++;
+
+const num01 = increaseNumber1();
+const num02 = increasePassedNumber1(num01);
+
+console.log(num01); // 🤔
+console.log(num02); // 🤔 */ 
+
+/* Respuesta Correcta: A) 10, 10
+La primera función en llamarse es increaseNumber que solo se encarga de retornar la variable num y luego la incrementa; num no esta en el scope de la función por eso pasamos a buscar la variable en el scope global. Esta función regresará 10.
+
+num1 se pasa como parámetro a increasePassedNumber que hace lo mismo que increaseNumber, regresa primero el valor de la variable y luego la incrementa, por ello obtenemos nuevamente como salida el valor 10. */
